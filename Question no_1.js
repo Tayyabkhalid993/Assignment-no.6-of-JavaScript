@@ -7,10 +7,13 @@
 
 
 
-let fun = function sum(a,b) {
-  console.log("Sum = ",a+b);
+function sum(a,b) {
+  return a+b;
 }
 
 
-fun(4,6);
+let z = sum(4,6);
+
+console.log("Sum = ",z);
+
 
