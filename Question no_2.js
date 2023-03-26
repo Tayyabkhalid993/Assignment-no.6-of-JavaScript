@@ -10,15 +10,14 @@
 function num(a) {
    b = a%2;
   if(b==0){
-    console.log(true);
+    return true;
   }
   else{
-    console.log(false);
+    return false;
   }
 }
 
 
- num(prompt("Enter any number."));
+let z = num(prompt("Enter any number."));
 
-
-
+console.log(z);
