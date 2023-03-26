@@ -1,5 +1,6 @@
 
 
+
 let fun = function sum(a,b) {
   console.log("Sum = ",a+b);
 }
